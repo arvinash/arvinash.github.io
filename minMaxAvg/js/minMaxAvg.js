@@ -1,6 +1,7 @@
 console.clear()
 
-const array = [37,-5,-15,-37,5,15]
+  const array = [30,15]
+
 
 const forLoopMinMax = () => {
   let min = array[0], max = array[0]
@@ -17,9 +18,9 @@ const forLoopMinMax = () => {
 }
 
 const [forLoopMin, forLoopMax] = forLoopMinMax()
-console.log(`Minimum: ${forLoopMin}, Maximum: ${forLoopMax}`) // Minimum: -37, Maximum: 37
+console.log(`Minimum: ${forLoopMin}, Maximum: ${forLoopMax}`) 
 
 const minUsingReduce = () => array.reduce((min, currentValue) => Math.min(min, currentValue), array[0])
 const maxUsingReduce = () => array.reduce((max, currentValue) => Math.max(max, currentValue), array[0])
-console.log(`Minimum: ${minUsingReduce()}, Maximum: ${maxUsingReduce()}`) // Minimum: -37, Maximum: 37
+console.log(`Minimum: ${minUsingReduce()}, Maximum: ${maxUsingReduce()}`) 
 console.log(avgg)
