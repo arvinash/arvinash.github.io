@@ -7,7 +7,7 @@ function palindrome()
 		b = b + a[i]
 		}
 		if (a == b)
-		document.getElementById("pa2"). value = b + " is a Palindrome String ";
+		document.getElementById("pa2"). value = alert("it is a Palindrome String ");
 		else
-		document.getElementById("pa2"). value = b + " is not a Palindrome String";
+		document.getElementById("pa2"). value = alert("it is not a Palindrome String");
 		}
