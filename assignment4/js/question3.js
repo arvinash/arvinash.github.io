@@ -11,5 +11,5 @@ function fact1()
 {
 var num = document.getElementById("number").value;
 var f = fact(num);
-document.getElementById("res").innerHTML="The factorial of the number " + num + " is: " + f ;
+alert("The factorial of the number " + num + " is: " + f );
 }
